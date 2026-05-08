@@ -1,0 +1,98 @@
+[
+  {
+    "document_name": "sample-medication-guide.pdf",
+    "chapter": "chapter 1",
+    "section": "고위험 약품",
+    "document_number": "sample-001",
+    "volume": "샘플",
+    "source_file": "sample-medication-guide.pdf",
+    "category": "고위험/주의 의약품",
+    "page": 1,
+    "chunk_id": "sample-medication-guide-p0001-c0001",
+    "content": "고위험 약품 투여 전에는 환자 이름, 등록번호, 약품명, 용량, 투여 경로, 투여 시간을 확인한다. 독립적인 이중 확인이 필요한 약품은 두 명의 담당자가 각각 처방과 라벨을 대조한다."
+  },
+  {
+    "document_name": "sample-line-care-guide.pdf",
+    "chapter": "chapter 2",
+    "section": "중심정맥관 관리",
+    "document_number": "sample-002",
+    "volume": "샘플",
+    "source_file": "sample-line-care-guide.pdf",
+    "category": "정맥관/혈관접근",
+    "page": 3,
+    "chunk_id": "sample-line-care-guide-p0003-c0001",
+    "content": "중심정맥관 드레싱 교환 전에는 손위생을 시행하고 멸균 물품을 준비한다. 삽입 부위의 발적, 삼출물, 통증, 고정 상태를 확인하고 이상 소견이 있으면 담당자에게 보고한다."
+  },
+  {
+    "document_name": "sample-specimen-guide.pdf",
+    "chapter": "chapter 3",
+    "section": "검체 채취",
+    "document_number": "sample-003",
+    "volume": "샘플",
+    "source_file": "sample-specimen-guide.pdf",
+    "category": "검사/검체",
+    "page": 2,
+    "chunk_id": "sample-specimen-guide-p0002-c0001",
+    "content": "검체 채취 후에는 즉시 라벨의 환자 정보와 검체 종류를 확인한다. 라벨이 누락되었거나 환자 정보가 일치하지 않으면 검체를 임의로 수정하지 않고 정해진 절차에 따라 재확인한다."
+  },
+  {
+    "document_name": "sample-imaging-guide.pdf",
+    "chapter": "chapter 4",
+    "section": "영상검사 준비",
+    "document_number": "sample-004",
+    "volume": "샘플",
+    "source_file": "sample-imaging-guide.pdf",
+    "category": "영상검사/시술",
+    "page": 2,
+    "chunk_id": "sample-imaging-guide-p0002-c0001",
+    "content": "조영제를 사용하는 영상검사 전에는 알레르기 병력, 금식 여부, 최근 검사 결과, 정맥로 상태를 확인한다. 검사 후에는 이상 증상 여부를 관찰하고 필요한 경우 수분 섭취와 주의사항을 안내한다."
+  },
+  {
+    "document_name": "sample-transfusion-guide.pdf",
+    "chapter": "chapter 5",
+    "section": "수혈 확인",
+    "document_number": "sample-005",
+    "volume": "샘플",
+    "source_file": "sample-transfusion-guide.pdf",
+    "category": "수혈",
+    "page": 1,
+    "chunk_id": "sample-transfusion-guide-p0001-c0001",
+    "content": "수혈 시작 전에는 환자 정보, 혈액제제 종류, 혈액번호, 혈액형, 유효시간을 확인한다. 수혈 초기에는 활력징후와 이상 반응을 주의 깊게 관찰하고, 오한이나 호흡곤란 등 이상 증상이 있으면 즉시 중지하고 보고한다."
+  },
+  {
+    "document_name": "sample-infection-control-guide.pdf",
+    "chapter": "chapter 6",
+    "section": "감염관리",
+    "document_number": "sample-006",
+    "volume": "샘플",
+    "source_file": "sample-infection-control-guide.pdf",
+    "category": "감염관리",
+    "page": 4,
+    "chunk_id": "sample-infection-control-guide-p0004-c0001",
+    "content": "격리 환자를 간호할 때는 필요한 보호구를 착용하고, 환자 접촉 전후 손위생을 시행한다. 사용한 물품은 정해진 절차에 따라 분리하고, 병실 이동이나 검사 이동 시에는 감염 전파 예방 조치를 확인한다."
+  },
+  {
+    "document_name": "sample-vital-sign-guide.pdf",
+    "chapter": "chapter 7",
+    "section": "활력징후 관찰",
+    "document_number": "sample-007",
+    "volume": "샘플",
+    "source_file": "sample-vital-sign-guide.pdf",
+    "category": "환자사정",
+    "page": 1,
+    "chunk_id": "sample-vital-sign-guide-p0001-c0001",
+    "content": "활력징후 측정 시에는 혈압, 맥박, 호흡, 체온, 산소포화도를 환자 상태와 함께 확인한다. 이전 기록과 비교해 급격한 변화가 있거나 증상이 동반되면 재측정 후 담당자에게 보고한다."
+  },
+  {
+    "document_name": "sample-emergency-cart-guide.pdf",
+    "chapter": "chapter 8",
+    "section": "응급카트 점검",
+    "document_number": "sample-008",
+    "volume": "샘플",
+    "source_file": "sample-emergency-cart-guide.pdf",
+    "category": "모니터링/장비/물품",
+    "page": 2,
+    "chunk_id": "sample-emergency-cart-guide-p0002-c0001",
+    "content": "응급카트는 정해진 주기에 따라 봉인 상태, 필수 물품, 약품 유효기간, 장비 작동 여부를 확인한다. 사용 후에는 누락된 물품을 보충하고 점검 기록을 남겨 다음 응급상황에 바로 사용할 수 있도록 준비한다."
+  }
+]

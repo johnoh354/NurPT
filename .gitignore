@@ -1,0 +1,51 @@
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Python runtime artifacts
+__pycache__/
+.pycache/
+.pycache_local/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment and logs
+.env
+.env.*
+*.log
+
+# Private source documents and generated extraction artifacts
+*.pdf
+지침서/
+sample_docs/
+data/raw/
+data/private/
+extraction.json
+chunks.json
+**/extraction.json
+**/chunks.json
+pages_txt/
+**/pages_txt/
+reindex_work/
+vol2_work/
+*_work/
+chapter*_workflow.md
+index_volume2.py
+docs/github_publish.md
+
+# Local vector DBs and backups
+chroma_db/
+chroma_db*/
+*chroma_db*/
+*.sqlite3
+*.bin
+*.pickle
+
+# Generated outputs
+outputs/
+exports/
