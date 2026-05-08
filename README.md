@@ -36,6 +36,12 @@ flowchart LR
     H --> E
 ```
 
+## Demo Screenshot
+
+아래 화면은 실제 원문이 아닌 `sample_data/` 기반 더미 데이터로 실행한 데모입니다.
+
+![NurPT sample demo](docs/images/nurpt-demo.png)
+
 ## Tech Stack
 
 - Python 3.10+
