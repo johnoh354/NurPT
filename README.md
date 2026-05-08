@@ -155,7 +155,6 @@ python3 local_rag_ui.py --db-path sample_chroma_db --collection sample_pdf_chunk
 ## Demo Scenario
 
 제출용 시연 흐름은 `docs/demo_scenario.md`에 정리했습니다.
-주요 설계 결정과 한계는 `docs/decisions.md`에 정리했습니다.
 
 ## Portfolio Summary
 
