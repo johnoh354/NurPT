@@ -29,14 +29,38 @@ NurPT는 PDF 기반 업무 지침서를 전처리하고, 문서 청크를 임베
 
 ```mermaid
 flowchart LR
-    A["PDF documents"] --> B["pdf_extract_check.py<br/>page text extraction"]
-    B --> C["pdf_chunk_json.py<br/>chunk generation"]
-    C --> D["embed_chunks_chroma.py<br/>embedding + Chroma index"]
-    D --> E["rag_ollama_answer.py<br/>retrieval + prompt"]
-    E --> F["Ollama chat model"]
-    F --> G["answer with citations"]
-    D --> H["local_rag_ui.py<br/>local browser UI"]
-    H --> E
+    A["PDF documents"]
+
+    subgraph Prep["Document preparation"]
+        B["pdf_extract_check.py<br/>page text extraction"]
+        C["pdf_chunk_json.py<br/>chunk generation"]
+    end
+
+    subgraph Index["Vector index"]
+        D["embed_chunks_chroma.py<br/>embedding"]
+        E[("ChromaDB<br/>persistent vector store")]
+    end
+
+    subgraph QA["Question answering"]
+        F["rag_ollama_answer.py<br/>retrieval + prompt"]
+        G["Ollama chat model"]
+        H["answer with citations"]
+    end
+
+    I["local_rag_ui.py<br/>local browser UI"]
+
+    A --> B --> C --> D --> E --> F --> G --> H
+    I --> F
+
+    classDef source fill:#eef6f3,stroke:#0f6d61,color:#1f2a2e;
+    classDef process fill:#fffdf8,stroke:#d7d1c7,color:#1f2a2e;
+    classDef store fill:#f3f0ff,stroke:#6f5bd8,color:#1f2a2e;
+    classDef output fill:#fff1e8,stroke:#c05a2b,color:#1f2a2e;
+
+    class A,I source;
+    class B,C,D,F,G process;
+    class E store;
+    class H output;
 ```
 
 ## Demo Screenshot
