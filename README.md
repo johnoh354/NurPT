@@ -71,11 +71,11 @@ flowchart LR
 
 전체 문서 범위에서 질문한 화면:
 
-![NurPT sample demo](docs/images/nurpt-demo.png)
+<img src="docs/images/nurpt-demo.png" alt="NurPT sample demo" width="720">
 
 `검사/검체` 문서 범위 필터를 적용한 화면:
 
-![NurPT filtered sample demo](docs/images/nurpt-filter-demo.png)
+<img src="docs/images/nurpt-filter-demo.png" alt="NurPT filtered sample demo" width="720">
 
 ## Tech Stack
 
