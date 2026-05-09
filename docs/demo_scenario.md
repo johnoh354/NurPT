@@ -25,7 +25,7 @@ python3 embed_chunks_chroma.py index \
 python3 embed_chunks_chroma.py search "고위험 약품 투여 전에는 무엇을 확인해야 하나요?" \
   --db-path sample_chroma_db \
   --collection sample_pdf_chunks \
-  --top-k 3
+  --top-k 1
 ```
 
 3. 샘플 RAG 답변 생성
