@@ -8,7 +8,7 @@
 
 ## 2. Public Sample Demo
 
-공개 저장소에서는 실제 PDF 원문을 포함하지 않으므로, 데모는 가상의 청크 데이터에서 시작합니다.
+공개 저장소에서는 실제 PDF 원문을 포함하지 않으므로, 데모는 가상의 청크 데이터에서 시작합니다. 이 단계는 전체 검색 품질을 증명하기보다, 공개 샘플 데이터로 색인, 검색, 답변 생성 흐름이 재현되는지 확인하기 위한 예시입니다.
 
 1. 임베딩 및 ChromaDB 색인
 
@@ -19,7 +19,7 @@ python3 embed_chunks_chroma.py index \
   --collection sample_pdf_chunks
 ```
 
-2. 검색 품질 확인
+2. 샘플 검색 동작 확인
 
 ```bash
 python3 embed_chunks_chroma.py search "고위험 약품 투여 전에는 무엇을 확인해야 하나요?" \
@@ -28,7 +28,7 @@ python3 embed_chunks_chroma.py search "고위험 약품 투여 전에는 무엇�
   --top-k 3
 ```
 
-3. RAG 답변 생성
+3. 샘플 RAG 답변 생성
 
 ```bash
 python3 rag_ollama_answer.py "고위험 약품 투여 전에는 무엇을 확인해야 하나요?" \
@@ -67,7 +67,7 @@ python3 local_rag_ui.py \
 
 - `고위험 약품 투여 전에는 무엇을 확인해야 하나요?`
 - `중심정맥관 드레싱 교환 시 주의점은 무엇인가요?`
-- `검체 채취 후 라벨 확인은 어떻게 하나요?`
+- `조영제를 사용하는 영상검사 전후에는 무엇을 확인해야 하나요?`
 
 ## 5. What To Emphasize
 
