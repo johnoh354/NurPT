@@ -51,12 +51,12 @@ python3 rag_ollama_answer.py "혈당 측정 기록 절차는 어디 문서에서
 ```
 
 ```bash
-python3 rag_ollama_answer.py "CT 검사 전후 간호는 어떻게 하나?" --db-path "./chroma_db" --collection "pdf_chunks" --category "영상검사/시술"
+python3 rag_ollama_answer.py "CT 검사 전후 간호는 어떻게 확인하면 될까?" --db-path "./chroma_db" --collection "pdf_chunks" --category "영상검사/시술"
 ```
 
 ## 샘플 데이터 점검 예시
 
 ```bash
 python3 embed_chunks_chroma.py index --input sample_data/sample_chunks.json --db-path sample_chroma_db --collection sample_pdf_chunks
-python3 rag_ollama_answer.py "고위험 약품 투여 전에는 무엇을 확인해야 하나요?" --db-path sample_chroma_db --collection sample_pdf_chunks
+python3 rag_ollama_answer.py "고위험 약품 투여 전 확인 사항은 어떻게 보면 될까?" --db-path sample_chroma_db --collection sample_pdf_chunks
 ```
