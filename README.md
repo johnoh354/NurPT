@@ -65,11 +65,17 @@ flowchart LR
     class H output;
 ```
 
-## Demo Screenshot
+## Demo Screenshots
 
 아래 화면은 실제 원문이 아닌 `sample_data/` 기반 더미 데이터로 실행한 데모입니다.
 
+전체 문서 범위에서 질문한 화면:
+
 ![NurPT sample demo](docs/images/nurpt-demo.png)
+
+`검사/검체` 문서 범위 필터를 적용한 화면:
+
+![NurPT filtered sample demo](docs/images/nurpt-filter-demo.png)
 
 ## Tech Stack
 
