@@ -73,7 +73,7 @@ flowchart LR
 
 <img src="docs/images/nurpt-demo.png" alt="NurPT sample demo" width="720">
 
-`검사/검체` 문서 범위 필터를 적용한 화면:
+`영상검사/시술` 문서 범위 필터를 적용한 화면:
 
 <img src="docs/images/nurpt-filter-demo.png" alt="NurPT filtered sample demo" width="720">
 
