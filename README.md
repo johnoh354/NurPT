@@ -160,7 +160,7 @@ python3 local_rag_ui.py --db-path sample_chroma_db --collection sample_pdf_chunk
 - `sample_data/`는 실제 원문 발췌가 아닌 가상 샘플 데이터만 포함합니다.
 - 실제 도메인 데이터로 실행한 결과를 캡처할 때도 문서 본문이 노출되지 않도록 가립니다.
 
-자세한 제출 전 점검 항목은 `SECURITY_CHECKLIST.md`를 확인하세요.
+공개 제출 전 확인한 보안 점검 항목은 `SECURITY_CHECKLIST.md`에 정리했습니다.
 
 ## Demo Scenario
 
